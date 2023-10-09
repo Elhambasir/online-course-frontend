@@ -13,7 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "tailwindcss -i ./src/index.css -o ./css/main.css && react-scripts build",
+    "watch": "tailwindcss -i ./src/index.css -o ./css/main.css --watch",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -34,5 +35,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
   }
 }

@@ -1,0 +1,8 @@
+div.header {
+  width: 100%;
+  height: 916px;
+  background-color: gray;
+  background-image: url("https://media.istockphoto.com/id/1425434641/photo/laptop-sign-with-camera-video-recorder-message-chat-3d-render-concept.webp?b=1&s=170667a&w=0&k=20&c=cwQ2awGPNaOE0k6-91hWWDkSXmlWtlU1EKAnGu8XbxI=");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
