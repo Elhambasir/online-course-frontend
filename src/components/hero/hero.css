@@ -1,0 +1,9 @@
+.edu {
+  background-image: url('../../img/edu_icon.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.edu {
+  height: 400px;
+}
